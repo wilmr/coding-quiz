@@ -1,0 +1,103 @@
+body {
+	display: flex;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #eef1ff;
+	flex-direction: column;
+}
+section {
+	padding: 40px;
+	margin-left: 60px;
+	margin-right: 60px;
+	text-align: center;
+}
+
+section h1 {
+	text-align: center;
+	font-size: xx-large;
+}
+
+section p {
+	text-align: center;
+	font-size: large;
+}
+
+#timerStart {
+	background-color: #7e21a3;
+	border: none;
+	border-radius: 12px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+#timerStart:hover {
+	background-color: pink;
+}
+
+#questions {
+	font-weight: bolder;
+	font-size: larger;
+	text-align: center;
+}
+
+ul {
+	font-weight: bolder;
+}
+li {
+	display: flex;
+	background-color: #7e21a3;
+	border: none;
+	border-radius: 12px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+li:hover {
+	background-color: pink;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 35px;
+}
+header a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #7e21a3;
+}
+
+header a:hover {
+	color: pink;
+}
+
+header div {
+	font-weight: bold;
+	color: #7e21a3;
+}
+
+#createDiv {
+	border-style: solid;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-image: none;
+	padding-top: 10px;
+	color: gray;
+	font-style: italic;
+	font-weight: lighter;
+	font-size: xx-large;
+	margin-top: 40px;
+}
+
+#id {
+	font-weight: bold;
+	color: #7e21a3;
+}
